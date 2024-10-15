@@ -131,7 +131,7 @@ const App = () => {
   const [seenCats, setSeenCats] = useState([]); // Store previously seen cats
   const [loading, setLoading] = useState(false); // Loading state
 
-  const apiKey = 'live_fv3EyJQLTSBhv44Zi536hGrv5smbgZUhw3yI60dIYUSxRURQcWHxU4qVxw438hMt'; // Use your actual API key
+  const apiKey = 'live_Cd5ySyLyVQfuCj3Sk1WvJ5FnqrFgVURVD9CPpJHMVdCHuC8EHuw58QaS6lyVbA0D'; // Use your actual API key
 
   // Check if any of the cat's attributes match the ban list
   const isBanned = useCallback((cat) => {
